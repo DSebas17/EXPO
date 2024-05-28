@@ -1,0 +1,150 @@
+main{
+    font-family:"Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+#cabeza img{
+
+
+padding: 10px;
+}
+
+header{
+    position: sticky;
+    top: 10PX;
+}
+
+#cabeza{
+    background-color: #000000;
+    border-radius: 50px;
+    border: 5px solid #fbe407;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#fondo{
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100;
+
+}
+
+
+
+#menu a{
+    background-color: black;
+    border-color: black;
+    border-radius: 50px;
+    color: azure;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+}
+
+
+#menu a:hover{
+    background-color: #f2a30b;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+#menu{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    border-radius: 50px;
+    margin-top: -3%;
+    border: 5px solid 	#fbe407;
+    margin-bottom: 15px;
+    position: static;
+    margin-top: 10px;
+  
+}
+
+
+section img{
+    height: 150px;
+    cursor: pointer;
+    transition: all .5s;
+    box-shadow: 10px 15px 10px rgb(0, 0, 0);
+    margin-bottom: 20px;
+}
+
+section h2{
+    font-size: 30px;
+    text-shadow: 5px 10px 7px rgb(0, 0, 0);
+}
+
+.fotitos1:hover img{
+transform: scale(1.09);
+
+}
+
+.fotitos2:hover img{
+    transform: scale(1.09);
+    }
+
+
+#contenido{
+    display: flex;
+    padding-left: 23%;
+    
+}
+
+h2{
+    text-align: center;
+    margin-top: 50px;
+    color: #f2a30b;
+    
+}
+
+h2:hover{
+    color:black;
+}
+
+
+footer{
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.redes:hover{
+    background-color: #f2a30b;
+    transition: all 0.2s;
+    cursor: pointer;
+    border-radius: 40px;
+
+}
+.redes{
+    height: 60px;
+    width: 60px;
+
+}
+
+#derechos h2{
+    font-size: 20px;
+    display: flex;
+    color: #ffffff;
+    text-shadow: 3px 5px 8px black;
+    
+}
+
+
+
+
+
