@@ -101,8 +101,8 @@ transform: scale(1.09);
 
 #contenido{
     display: flex;
-    padding-left: 23%;
-    padding-right: 23%;
+    margin-left: 22%;
+    margin-right: 22%;
     
 }
 
